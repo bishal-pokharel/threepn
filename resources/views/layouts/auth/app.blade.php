@@ -10,14 +10,14 @@
         <meta name="robots" content="noindex, nofollow">
         <!-- Icons -->
         <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-        <link rel="shortcut icon" href="{{ asset('admin/images/favicon.ico')}}">
+        <link rel="shortcut icon" href="{{ asset('assets_admin/images/favicon.ico')}}">
         <!-- END Icons -->
 
         <!-- Stylesheets -->
 
         <!-- Fonts and Codebase framework -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700">
-        <link rel="stylesheet" id="css-main" href="{{ asset('admin/css/codebase.min.css')}}">
+        <link rel="stylesheet" id="css-main" href="{{ asset('assets_admin/css/codebase.min.css')}}">
         @yield ('styles')
     </head>
     <body>
@@ -36,15 +36,15 @@
         </div>
         <!-- END Page Container -->
 
-        <script src="{{ asset('admin/js/codebase.core.min.js')}}"></script>
+        <script src="{{ asset('assets_admin/js/codebase.core.min.js')}}"></script>
 
-        <script src="{{ asset('admin/js/codebase.app.min.js')}}"></script>
+        <script src="{{ asset('assets_admin/js/codebase.app.min.js')}}"></script>
 
         <!-- Page JS Plugins -->
-        <script src="{{ asset('admin/js/plugins/jquery-validation/jquery.validate.min.js')}}"></script>
+        <script src="{{ asset('assets_admin/js/plugins/jquery-validation/jquery.validate.min.js')}}"></script>
 
         <!-- Page JS Code -->
-        <script src="{{ asset('admin/js/pages/op_auth_signin.min.js')}}"></script>
+        <script src="{{ asset('assets_admin/js/pages/op_auth_signin.min.js')}}"></script>
         @yield ('scripts')
 
     </body>
